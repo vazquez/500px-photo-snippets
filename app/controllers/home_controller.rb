@@ -21,8 +21,12 @@ class HomeController < ApplicationController
     @selected_ids = params['data']
     photos = []
     @selected_ids.each do |id|
-      photo = get_api("/photos/#{id}")['photo']
-      photos << {:url => photo['image_url'], :id =>photo['id']}
+      photo = get_api("/photos/#{id}?image_size[]=3&image_size[]=4&image_size[]=5")['photo']
+      images = {}
+      photo['images'].each do |image|
+        images[image['size']] = image['url']
+      end
+      photos << {:images => images, :id =>photo['id']}
     end
     
     @s = Snippet.create! :photos => photos, :username => session[:username]
