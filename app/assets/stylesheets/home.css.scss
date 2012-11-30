@@ -11,3 +11,20 @@
 	opacity : 0.6;
 	display : none;
 }
+.photo-container-div{
+	position: relative;
+	float : left;
+	margin-right : 6px;
+	.order-div{
+		position : absolute;
+		right : 10px;
+		bottom : 10px;
+		font-size : 25px;
+		color: white;
+	}	
+}
+#container.show-order{
+	:first-child{
+		
+	}
+}
