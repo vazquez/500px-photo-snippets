@@ -1,0 +1,3231 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 13:56:21 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::OAuth):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 13:56:52 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::OAuth):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 13:56:56 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::OAuth):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 13:57:13 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/Users/chaoqu/500pxDev/photosnippet/app/controllers/authentication_controller.rb:17: syntax error, unexpected ':', expecting keyword_end
+    redirect_to 'home/index' :oauth_verifier = oauth_verifier
+                              ^):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 13:57:37 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 778ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 13:57:38 -0500
+
+AbstractController::ActionNotFound (The action 'login' could not be found for AuthenticationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 13:57:52 -0500
+
+AbstractController::ActionNotFound (The action 'login_oauth' could not be found for AuthenticationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 13:58:05 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=PXEfmf1RtxR0TbouUcVJEvspDngCiCRgKn7FItL2
+Completed 302 Found in 112ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/callback?oauth_token=PXEfmf1RtxR0TbouUcVJEvspDngCiCRgKn7FItL2&oauth_verifier=8yXsDec9eAFb8P62MvcJ" for 127.0.0.1 at 2012-11-30 13:58:12 -0500
+
+ActionController::RoutingError (No route matches [GET] "/callback"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:00:42 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 635ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:00:43 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=Ddv5Ctg8lIKvHWVDqvKDzbhCPVUIZUj3LEjbJzyp
+Completed 302 Found in 71ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:01:49 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 736ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:01:50 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=xZETe9szcqpxXwmRJXwAniFIjE9dVy4fBBHMBo55
+Completed 302 Found in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=xZETe9szcqpxXwmRJXwAniFIjE9dVy4fBBHMBo55&oauth_verifier=L9MAbuZUi5qOeJuK2O2x" for 127.0.0.1 at 2012-11-30 14:01:52 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"xZETe9szcqpxXwmRJXwAniFIjE9dVy4fBBHMBo55", "oauth_verifier"=>"L9MAbuZUi5qOeJuK2O2x"}
+Redirected to http://127.0.0.1:3000home/index
+Completed 302 Found in 183ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:03:11 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 1250ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:03:12 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=qEvWyjgfm9WpYZcN68jp1MXEVhZvqURcwtI7m4iA
+Completed 302 Found in 62ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=qEvWyjgfm9WpYZcN68jp1MXEVhZvqURcwtI7m4iA&oauth_verifier=Z9rXLQgEB6P9SZIRjesI" for 127.0.0.1 at 2012-11-30 14:03:14 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"qEvWyjgfm9WpYZcN68jp1MXEVhZvqURcwtI7m4iA", "oauth_verifier"=>"Z9rXLQgEB6P9SZIRjesI"}
+Redirected to http://127.0.0.1:3000home/index
+Completed 302 Found in 104ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:03:37 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 507ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:03:38 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=ZCgOqi6XaLZXlJTqK82Jckpwlz7guhhXHvVtT12a
+Completed 302 Found in 105ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=ZCgOqi6XaLZXlJTqK82Jckpwlz7guhhXHvVtT12a&oauth_verifier=tqcwASXODP5bAdeCsezn" for 127.0.0.1 at 2012-11-30 14:03:39 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"ZCgOqi6XaLZXlJTqK82Jckpwlz7guhhXHvVtT12a", "oauth_verifier"=>"tqcwASXODP5bAdeCsezn"}
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 90ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-11-30 14:03:39 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 623ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:03:40 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=3Cf6duWQQcp3Hly6eidrFoAbWwBmNno6oqFm17bC
+Completed 302 Found in 70ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=3Cf6duWQQcp3Hly6eidrFoAbWwBmNno6oqFm17bC&oauth_verifier=YFc8VkjlEy5wGZ6iO7m0" for 127.0.0.1 at 2012-11-30 14:03:43 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"3Cf6duWQQcp3Hly6eidrFoAbWwBmNno6oqFm17bC", "oauth_verifier"=>"YFc8VkjlEy5wGZ6iO7m0"}
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 76ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-11-30 14:03:43 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 465ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:03:44 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=MMjxnhGPD7MS3sm8LjOCrC8YY1PXvW9iVi4oPqIj
+Completed 302 Found in 77ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=MMjxnhGPD7MS3sm8LjOCrC8YY1PXvW9iVi4oPqIj&oauth_verifier=ZpILk9HvUj2tw5jfUCb7" for 127.0.0.1 at 2012-11-30 14:03:50 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"MMjxnhGPD7MS3sm8LjOCrC8YY1PXvW9iVi4oPqIj", "oauth_verifier"=>"ZpILk9HvUj2tw5jfUCb7"}
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 120ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-11-30 14:03:50 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 523ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:03:50 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=xnrwuSUhIzYJ8aFytd3068B1RH1wIdJsmTNmLoqR
+Completed 302 Found in 918ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:03:59 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 614ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:03:59 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=sPIB8odDsWT4sZQi29adHg7pVeaEJWPeaXvTBCLz
+Completed 302 Found in 604ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=sPIB8odDsWT4sZQi29adHg7pVeaEJWPeaXvTBCLz&oauth_verifier=jm3On9OKsNK9dRKZrcLH" for 127.0.0.1 at 2012-11-30 14:04:05 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"sPIB8odDsWT4sZQi29adHg7pVeaEJWPeaXvTBCLz", "oauth_verifier"=>"jm3On9OKsNK9dRKZrcLH"}
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 552ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-11-30 14:04:05 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 969ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:04:06 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=QF4HUMGb017VTrES2gXRVA4Fdph4i2LPlEmugl5W
+Completed 302 Found in 606ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:04:20 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 180ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:04:21 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=yhAwCZDU9CB547NID3rINXRqbmmNQs3aiMavhD6h
+Completed 302 Found in 94ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:04:23 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 398ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:04:23 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=mfbGpXsKLki80R88uU0JvEtUTaiSawG2FpOQXzU0
+Completed 302 Found in 115ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=mfbGpXsKLki80R88uU0JvEtUTaiSawG2FpOQXzU0&oauth_verifier=MpvwkIwckDMpEAKsub1Z" for 127.0.0.1 at 2012-11-30 14:05:05 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"mfbGpXsKLki80R88uU0JvEtUTaiSawG2FpOQXzU0", "oauth_verifier"=>"MpvwkIwckDMpEAKsub1Z"}
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 651ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-11-30 14:05:06 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 375ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:05:06 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=UYX88itrrYRYNWoIGagxmijxkSnnzmiMhiovYSus
+Completed 302 Found in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:05:14 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 514ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:05:15 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=WSHDnCCaXxB5R5vd3eYIfConbAiNqFssoEcXKzqW
+Completed 302 Found in 101ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:05:26 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 2757ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:05:29 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=kMYShWJL6euQO0hvesdJB5r5cZFNAFuhzn1k95rm
+Completed 302 Found in 67ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:05:36 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 430ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:05:37 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=A9Oydq1MsfcFATGijcN6v58ITTQnMVi8oW6uIQcz
+Completed 302 Found in 1324ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback" for 127.0.0.1 at 2012-11-30 14:06:19 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-11-30 14:06:20 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 1700ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:06:21 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=Uy3Xt7HSKtg3naSPOeYT8OMIpJ2jRUe4FQJgx3hq
+Completed 302 Found in 73ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:06:59 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 1438ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:07:00 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=3BPxeju7Wnl89PXVD2Z9xwGZJjrH68KedQryuLqB
+Completed 302 Found in 106ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=3BPxeju7Wnl89PXVD2Z9xwGZJjrH68KedQryuLqB&oauth_verifier=xOcE46fVT2SJ7IIfA55v" for 127.0.0.1 at 2012-11-30 14:07:03 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"3BPxeju7Wnl89PXVD2Z9xwGZJjrH68KedQryuLqB", "oauth_verifier"=>"xOcE46fVT2SJ7IIfA55v"}
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 83ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-11-30 14:07:03 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 229ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:07:04 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=APw4wVyJfTawL0H13htIhNDsX93T4vmQmliu4hZw
+Completed 302 Found in 81ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=APw4wVyJfTawL0H13htIhNDsX93T4vmQmliu4hZw&oauth_verifier=ZLpjscvwxaUt37DPYlQG" for 127.0.0.1 at 2012-11-30 14:07:46 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"APw4wVyJfTawL0H13htIhNDsX93T4vmQmliu4hZw", "oauth_verifier"=>"ZLpjscvwxaUt37DPYlQG"}
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 87ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-11-30 14:07:46 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled authentication.css  (7ms)  (pid 22661)
+Compiled home.css  (1ms)  (pid 22661)
+Compiled application.css  (25ms)  (pid 22661)
+Compiled jquery.js  (2ms)  (pid 22661)
+Compiled jquery_ujs.js  (0ms)  (pid 22661)
+Compiled authentication.js  (0ms)  (pid 22661)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (79ms)  (pid 22661)
+Completed 200 OK in 203ms (Views: 202.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:07:47 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:07:47 -0500
+Served asset /authentication.js - 200 OK (2ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:07:47 -0500
+Served asset /authentication.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:07:47 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:07:47 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:07:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:07:47 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:07:47 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:09:43 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:09:50 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:10:04 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 1036ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:10:05 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=ztHd9qVwnmmpcyRidiAp4ADZjETIlszsk9yxViqu
+Completed 302 Found in 82ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=ztHd9qVwnmmpcyRidiAp4ADZjETIlszsk9yxViqu&oauth_verifier=h5ljuHkmIToRVxelPpkq" for 127.0.0.1 at 2012-11-30 14:10:07 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"ztHd9qVwnmmpcyRidiAp4ADZjETIlszsk9yxViqu", "oauth_verifier"=>"h5ljuHkmIToRVxelPpkq"}
+Redirected to 
+Completed 500 Internal Server Error in 78ms
+
+ActionController::RoutingError (No route matches {:controller=>"HomeController", :oauth_verifier=>"h5ljuHkmIToRVxelPpkq"}):
+  app/controllers/authentication_controller.rb:17:in `oauth_callback'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:11:53 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 1050ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:11:54 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=T5gb5YI38YrcViQGhWoViNs2G94FNcjfJdA7fzsr
+Completed 302 Found in 1525ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:12:00 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 202ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:12:00 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=rX2Am6B5fT5WNc6btHEFEkiY8e28vtWO2OzWZcew
+Completed 302 Found in 63ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:12:07 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 372ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:12:07 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=599fkDna2imn2jddI0JFGyIH9WouuEWXgmMwpbbL
+Completed 302 Found in 115ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=599fkDna2imn2jddI0JFGyIH9WouuEWXgmMwpbbL&oauth_verifier=BaEpinkhLuXCjxskkecU" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"599fkDna2imn2jddI0JFGyIH9WouuEWXgmMwpbbL", "oauth_verifier"=>"BaEpinkhLuXCjxskkecU"}
+Redirected to http://127.0.0.1:3000/home/index?oauth_verifier=BaEpinkhLuXCjxskkecU
+Completed 302 Found in 74ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?oauth_verifier=BaEpinkhLuXCjxskkecU" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"BaEpinkhLuXCjxskkecU"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 461ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:12:13 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 14:13:15 -0500
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/oauth/login
+Completed 302 Found in 614ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 14:13:16 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=X5zktFuf5ImtTFbsPu5ObsquYcPAEy4wXuLIPNGm
+Completed 302 Found in 82ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=X5zktFuf5ImtTFbsPu5ObsquYcPAEy4wXuLIPNGm&oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:13:18 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"X5zktFuf5ImtTFbsPu5ObsquYcPAEy4wXuLIPNGm", "oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+Redirected to http://127.0.0.1:3000/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH
+Completed 302 Found in 56ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:13:18 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 477ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:24:00 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `downcase' for #<ActiveSupport::HashWithIndifferentAccess:0x007f8fed7a67a8>):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:24:17 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `strip' for {"feature"=>"popular"}:Hash):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:24:37 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `strip' for {"feature"=>"popular"}:Hash):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:25:00 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `strip' for {"feature"=>"popular"}:Hash):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:25:01 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `strip' for {"feature"=>"popular"}:Hash):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:26:30 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 990ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:26:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:26:31 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:26:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:26:31 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:26:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:26:31 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:26:31 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:26:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:27:23 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 1339ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:27:24 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:27:24 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:27:24 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:27:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:27:24 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:27:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:27:24 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:27:24 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:28:01 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+Completed 500 Internal Server Error in 910ms
+
+NoMethodError (undefined method `photos' for #<Hash:0x007f8fe9d3ab50>):
+  app/controllers/home_controller.rb:9:in `index'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.9ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:28:15 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 545ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:16 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:16 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:16 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:16 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:16 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:16 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:28:35 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 2884ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:38 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:38 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:38 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:38 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:38 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:28:40 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 799ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:41 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:41 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:28:41 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:41 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:41 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:28:41 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:29:04 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 847ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:29:05 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:29:05 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:29:05 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:29:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:29:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:29:05 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:29:05 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:29:05 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:30:37 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 918ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:30:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:30:38 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:30:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:30:38 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:30:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:30:38 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:30:38 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:30:38 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:32:02 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 449ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:03 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:03 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:03 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:03 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:03 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:03 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:03 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:05 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:32:46 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 723ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:47 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:32:47 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:47 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:47 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:32:47 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:34:26 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 1264ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:27 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:27 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:27 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:27 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:27 -0500
+Served asset /application.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:27 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:27 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:34:36 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 668ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:36 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:36 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:36 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:36 -0500
+Served asset /application.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:37 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 387ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:34:48 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:35:27 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 724ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:35:28 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:35:28 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:35:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:35:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:35:28 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:35:28 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:35:28 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:35:28 -0500
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:36:04 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 850ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:36:05 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:36:05 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:36:05 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:36:05 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:36:05 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:36:05 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:36:05 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:36:05 -0500
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:38:10 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 1095ms
+
+ActionView::Template::Error (undefined method `id' for #<Hash:0x007f8fed211310>):
+    1: <h1>Pick 6 photos and share them!</h1>
+    2: <% @fav_photos.each do |photo|%>
+    3: 	<img class="selectable-image" id="<%=photo.id%>" src="<%=photo['image_url']%>">
+    4: <% end %>
+  app/views/home/index.html.erb:3:in `block in _app_views_home_index_html_erb__2006482623600941986_70128076100980'
+  app/views/home/index.html.erb:2:in `each'
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb__2006482623600941986_70128076100980'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:38:35 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (4ms)  (pid 22661)
+Completed 200 OK in 2478ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:38:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:38:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:38:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:38:38 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:38:38 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:38:38 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:38:38 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:38:38 -0500
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:39:02 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 718ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:39:03 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:39:03 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:03 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:03 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:39:03 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:03 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:03 -0500
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:39:41 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 5645ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:39:46 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:39:46 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:39:46 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:46 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:46 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:39:46 -0500
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (4ms)  (pid 22661)
+Completed 200 OK in 664ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:23 -0500
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 567ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:40:50 -0500
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:41:55 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Compiled home.css  (4ms)  (pid 22661)
+Compiled application.css  (2ms)  (pid 22661)
+Completed 200 OK in 944ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:41:56 -0500
+Served asset /application.css - 200 OK (19ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:41:56 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:41:56 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:41:56 -0500
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:41:56 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:41:56 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:41:56 -0500
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:41:56 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:43:28 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 1061ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:43:29 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:43:29 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:43:29 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:43:29 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:43:29 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:43:29 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:43:29 -0500
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:43:29 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:44:12 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (4ms)  (pid 22661)
+Completed 200 OK in 799ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:44:13 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:44:13 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:44:13 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:44:13 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:44:13 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:44:13 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:44:13 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:44:13 -0500
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:48:15 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (4ms)  (pid 22661)
+Completed 200 OK in 754ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:48:16 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:48:16 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:48:16 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:48:16 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:48:16 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:48:16 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:48:16 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:48:16 -0500
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:51:22 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Compiled home.css  (4ms)  (pid 22661)
+Compiled application.css  (1ms)  (pid 22661)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 1129ms (Views: 80.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:51:23 -0500
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:51:23 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:51:23 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:51:23 -0500
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:51:23 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:51:23 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:51:23 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:51:23 -0500
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:58:15 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 840ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:58:16 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:58:16 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:58:16 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:58:16 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:58:16 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:58:16 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:58:16 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:58:16 -0500
+Served asset /application.js - 200 OK (11ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 14:58:25 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate (Missing template home/photo_selected, application/photo_selected with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/chaoqu/500pxDev/photosnippet/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2974048086065669952__process_action__722295930351681015__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 14:58:26 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate (Missing template home/photo_selected, application/photo_selected with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/chaoqu/500pxDev/photosnippet/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2974048086065669952__process_action__722295930351681015__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 14:58:27 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template home/photo_selected, application/photo_selected with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/chaoqu/500pxDev/photosnippet/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2974048086065669952__process_action__722295930351681015__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 14:59:46 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 706ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 14:59:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 14:59:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 14:59:47 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 14:59:47 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 14:59:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 14:59:47 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 14:59:47 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 14:59:47 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 14:59:50 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+  Rendered home/snippet.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:00:43 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 656ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:00:43 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:00:43 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:00:44 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:00:44 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:00:44 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:00:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:00:44 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:00:44 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:00:57 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+Redirected to 
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `snippet_url' for #<HomeController:0x007f8fed6ddbf0>):
+  app/controllers/home_controller.rb:13:in `photo_selected'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:00:58 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+Redirected to 
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `snippet_url' for #<HomeController:0x007f8fee22cee8>):
+  app/controllers/home_controller.rb:13:in `photo_selected'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:00:59 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+Redirected to 
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `snippet_url' for #<HomeController:0x007f8feaab4ab0>):
+  app/controllers/home_controller.rb:13:in `photo_selected'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:05:21 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 2263ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:05:24 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:05:24 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:05:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:05:24 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:05:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:05:24 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:05:24 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:05:24 -0500
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/selected?undefined=&undefined=&undefined=&undefined=&undefined=&undefined=" for 127.0.0.1 at 2012-11-30 15:05:36 -0500
+
+ActionController::RoutingError (No route matches [GET] "/selected"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:10:56 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (4ms)  (pid 22661)
+Completed 200 OK in 1140ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:10:57 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:10:57 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:10:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:10:57 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:10:57 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:10:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:10:57 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:10:57 -0500
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/selected?undefined=&undefined=&undefined=&undefined=&undefined=&undefined=" for 127.0.0.1 at 2012-11-30 15:11:02 -0500
+
+ActionController::RoutingError (No route matches [GET] "/selected"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:11:24 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (3ms)  (pid 22661)
+Completed 200 OK in 525ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:11:25 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:11:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:11:25 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:11:25 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:11:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:11:25 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:11:25 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:11:25 -0500
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:11:27 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate (Missing template home/photo_selected, application/photo_selected with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/chaoqu/500pxDev/photosnippet/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2974048086065669952__process_action__722295930351681015__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:12:17 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 980ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:12:18 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:12:18 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:12:18 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:12:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:12:18 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:12:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:12:18 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:12:18 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:12:22 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"undefined"=>""}
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate (Missing template home/photo_selected, application/photo_selected with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/chaoqu/500pxDev/photosnippet/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2974048086065669952__process_action__722295930351681015__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:13:09 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (4ms)  (pid 22661)
+Completed 200 OK in 699ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:13:10 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:13:10 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:13:10 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:13:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:13:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:13:10 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:13:10 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:13:10 -0500
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:13:13 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"data"=>["19458645", "19451903", "19451741", "19457769", "19458563", "19464775"]}
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template home/photo_selected, application/photo_selected with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/chaoqu/500pxDev/photosnippet/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2974048086065669952__process_action__722295930351681015__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:14:48 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 793ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:14:49 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:14:49 -0500
+Served asset /authentication.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:14:49 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:14:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:14:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:14:49 -0500
+Served asset /authentication.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:14:49 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:14:49 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:14:52 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"data"=>["19458645", "19451903", "19451741", "19457769", "19458563", "19491231"]}
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template home/photo_selected, application/photo_selected with {:locale=>[:en], :formats=>[:json], :handlers=>[:erb, :builder]}. Searched in:
+  * "/Users/chaoqu/500pxDev/photosnippet/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2974048086065669952__process_action__722295930351681015__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__896443927486015319__call__3553358207006837645__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:15:36 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 349ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:15:37 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:15:37 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:15:37 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:15:37 -0500
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:15:37 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:15:37 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:15:37 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:15:37 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:15:40 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"data"=>["19458645", "19451903", "19451741", "19457769", "19458563", "19491231"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/www.google.com" for 127.0.0.1 at 2012-11-30 15:15:40 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home/www.google.com"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chaoqu/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chaoqu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home/index?oauth_verifier=kk8rOYitDEpuqJe3FvPH" for 127.0.0.1 at 2012-11-30 15:15:59 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"kk8rOYitDEpuqJe3FvPH"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Compiled home.js  (0ms)  (pid 22661)
+Compiled application.js  (4ms)  (pid 22661)
+Completed 200 OK in 697ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-30 15:16:10 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/oauth/login
+Completed 302 Found in 956ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/login" for 127.0.0.1 at 2012-11-30 15:16:11 -0500
+Processing by AuthenticationController#oauth_login as HTML
+Redirected to https://api.500px.com/v1/oauth/authorize?oauth_token=bCKQUMAP3mYjgP4MPjxHi6PuXjkYxtqepyp8U7Nn
+Completed 302 Found in 53ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=bCKQUMAP3mYjgP4MPjxHi6PuXjkYxtqepyp8U7Nn&oauth_verifier=vOVtkTFXBEKXsQlgyAVE" for 127.0.0.1 at 2012-11-30 15:16:12 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"bCKQUMAP3mYjgP4MPjxHi6PuXjkYxtqepyp8U7Nn", "oauth_verifier"=>"vOVtkTFXBEKXsQlgyAVE"}
+Redirected to http://127.0.0.1:3000/home/index?oauth_verifier=vOVtkTFXBEKXsQlgyAVE
+Completed 302 Found in 67ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?oauth_verifier=vOVtkTFXBEKXsQlgyAVE" for 127.0.0.1 at 2012-11-30 15:16:12 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"vOVtkTFXBEKXsQlgyAVE"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 553ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:16:13 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:13 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:16:13 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:16:13 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:13 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:13 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:13 -0500
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:13 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:16:19 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"data"=>["19458645", "19451903", "19451741", "19457769", "19458563", "19491231"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?oauth_verifier=vOVtkTFXBEKXsQlgyAVE" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"vOVtkTFXBEKXsQlgyAVE"}
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 533ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Served asset /authentication.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/authentication.css?body=1" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Served asset /authentication.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-30 15:16:21 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:16:29 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"data"=>["19458645", "19451903", "19451741", "19457769", "19458563", "19491231"]}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:19:20 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"data"=>["19464467", "19451741", "19451903", "19482363", "19452307", "19460347"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/oauth/callback?oauth_token=APw4wVyJfTawL0H13htIhNDsX93T4vmQmliu4hZw&oauth_verifier=ZLpjscvwxaUt37DPYlQG" for 127.0.0.1 at 2012-11-30 15:22:43 -0500
+Processing by AuthenticationController#oauth_callback as HTML
+  Parameters: {"oauth_token"=>"APw4wVyJfTawL0H13htIhNDsX93T4vmQmliu4hZw", "oauth_verifier"=>"ZLpjscvwxaUt37DPYlQG"}
+Redirected to http://127.0.0.1:3000/home/index?oauth_verifier=ZLpjscvwxaUt37DPYlQG
+Completed 302 Found in 428ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?oauth_verifier=ZLpjscvwxaUt37DPYlQG" for 127.0.0.1 at 2012-11-30 15:22:43 -0500
+Processing by HomeController#index as HTML
+  Parameters: {"oauth_verifier"=>"ZLpjscvwxaUt37DPYlQG"}
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 670ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-30 15:22:44 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-30 15:22:44 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/selected" for 127.0.0.1 at 2012-11-30 15:24:29 -0500
+Processing by HomeController#photo_selected as */*
+  Parameters: {"data"=>["19460347", "19482363", "19467615", "19455773", "19477971", "19471525"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
