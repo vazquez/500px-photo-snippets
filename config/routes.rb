@@ -4,6 +4,9 @@ Photosnippet::Application.routes.draw do
   post "oauth/login" => 'authentication#login'
 
   post "selected" => 'home#photo_selected'
+  get "snippet/:id" => 'home#snippet'
+  get "s/:id" => 'home#snippet'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

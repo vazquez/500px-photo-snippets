@@ -16,17 +16,17 @@ $(document).ready(function(){
 					$(this).remove();
 				});
 				$(".selected").removeClass('selected');
-				$('#overlay').css('display', 'visible');
-				// $.ajax({
-				//   type: 'POST',
-				//   url: '/selected',
-				//   data: {data:selected_id},
-				//   success: function(data){
-				//   	if (data.success){
-				//   		window.location.href = "http://www.google.com";
-				//   	}
-				//   },
-				// });
+			    $('#overlay').css('display', 'visible');
+			     $.ajax({
+				 type: 'POST',
+				  url: '/selected',
+				 data: {data:selected_id},
+				 success: function(data){
+				     if (data.success){
+					 window.location.href = data.url;
+				     }
+				 },
+			     });
 			}
 		}
 	})

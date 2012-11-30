@@ -5,21 +5,24 @@ class HomeController < ApplicationController
     access_token = OAuth::AccessToken.new(consumer, session[:token], session[:secret])
     @fav_photos = JSON.parse(access_token.get('/photos?feature=popular&rpp=50&page=1&image_size=3&only=People').body)['photos']
 
-    b = access_token.get('/users').body
-    @user = JSON.parse(b)['user']
-    puts @user.inspect
-    
+    @user = JSON.parse(access_token.get('/users').body)['user']
+    session[:username] = @user['username']
   end
   def photo_selected
     @selected_ids = params['data']
     p @selected_ids.inspect
+
+    @s = Snippet.create! :photos => @selected_ids, :username => session[:username]
+    
     respond_to do |format|
       format.json do 
-        render :json=>{:success=>true}
+        render :json=>{:success=>true, :url => "/s/#{@s._id}"}
       end
     end
   end
-  def show_snippet
-
+  def snippet
+    oid = params[:id]
+    @snippet = Snippet.find(oid)
+    
   end
 end
