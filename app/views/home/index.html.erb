@@ -1,5 +1,9 @@
 <div id="overlay"></div>
+<h1>Hi <%= @user['username']  %></h1>
+
 <h1>Pick 6 photos and share them!</h1>
+
+
 <% @fav_photos.each do |photo|%>
 	<img class="selectable-image" id="<%=photo['id']%>" src="<%=photo['image_url']%>">
 <% end %>
