@@ -4,10 +4,8 @@ gem 'rails', '3.2.8'
 gem 'json', '~> 1.7.5'
 gem 'oa-oauth'
 gem 'oauth'
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
+gem "mongoid", "~> 3.0.0"
+#gem 'sqlite3'
 
 
 # Gems used only for assets and not required
