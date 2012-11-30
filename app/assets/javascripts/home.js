@@ -12,17 +12,21 @@ $(document).ready(function(){
 			selected_id.push(this.id);
 			if (selected_id.length >= 6){
 				//bam, go to the backend;
-				$('#overlay').css('display', 'visible');
-				$.ajax({
-				  type: 'POST',
-				  url: '/selected',
-				  data: {data:selected_id},
-				  success: function(data){
-				  	if (data.success){
-				  		window.location.href = "http://www.google.com";
-				  	}
-				  },
+				$(".selectable-image:not(.selected)").fadeOut(function(){
+					$(this).remove();
 				});
+				$(".selected").removeClass('selected');
+				$('#overlay').css('display', 'visible');
+				// $.ajax({
+				//   type: 'POST',
+				//   url: '/selected',
+				//   data: {data:selected_id},
+				//   success: function(data){
+				//   	if (data.success){
+				//   		window.location.href = "http://www.google.com";
+				//   	}
+				//   },
+				// });
 			}
 		}
 	})
