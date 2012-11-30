@@ -16,6 +16,7 @@ $(document).ready(function(){
 					$(this).remove();
 				});
 				$(".selected").removeClass('selected');
+				$(".selectable-image").removeClass("selectable-image");
 				$('#overlay').css('display', 'visible');
 				$( "#sortable" ).sortable();
   			$( "#sortable" ).disableSelection();
