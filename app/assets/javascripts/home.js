@@ -17,6 +17,9 @@ $(document).ready(function(){
 				});
 				$(".selected").removeClass('selected');
 				$('#overlay').css('display', 'visible');
+				$( "#sortable" ).sortable();
+  			$( "#sortable" ).disableSelection();
+  			$("#sortable").addClass("show-order");
 				// $.ajax({
 				//   type: 'POST',
 				//   url: '/selected',
