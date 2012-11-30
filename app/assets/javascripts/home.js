@@ -20,16 +20,16 @@ $(document).ready(function(){
 				$( "#sortable" ).sortable();
   			$( "#sortable" ).disableSelection();
   			$("#sortable").addClass("show-order");
-				// $.ajax({
-				//   type: 'POST',
-				//   url: '/selected',
-				//   data: {data:selected_id},
-				//   success: function(data){
-				//   	if (data.success){
-				//   		window.location.href = "http://www.google.com";
-				//   	}
-				//   },
-				// });
+			  // $.ajax({
+				 // type: 'POST',
+				 // url: '/selected',
+				 // data: {data:selected_id},
+				 // success: function(data){
+				 //     if (data.success){
+					//  window.location.href = data.url;
+				 //     }
+				 // },
+			  // });
 			}
 		}
 	})
