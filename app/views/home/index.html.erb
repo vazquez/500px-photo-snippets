@@ -1,5 +1,7 @@
 <div id="overlay"></div>
 <h1>Pick 6 photos and share them!</h1>
-<% @fav_photos.each do |photo|%>
-	<img class="selectable-image" id="<%=photo['id']%>" src="<%=photo['image_url']%>">
-<% end %>
+<div id="container">
+	<% @fav_photos.each do |photo|%>
+		<div class="photo-container-div"><img class="selectable-image" id="<%=photo['id']%>" src="<%=photo['image_url']%>"><div class="order-div"></div></div>
+	<% end %>
+</div>
