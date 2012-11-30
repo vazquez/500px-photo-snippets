@@ -19,7 +19,13 @@ class HomeController < ApplicationController
   end
   def photo_selected
     @selected_ids = params['data']
-    @s = Snippet.create! :photos => @selected_ids, :username => session[:username]
+    photos = []
+    @selected_ids.each do |id|
+      photo = get_api("/photos/#{id}")['photo']
+      photos << {:url => photo['image_url'], :id =>photo['id']}
+    end
+    
+    @s = Snippet.create! :photos => photos, :username => session[:username]
     respond_to do |format|
       format.json do 
         render :json => {:success=>true, :url => "/s/#{@s._id}"}
