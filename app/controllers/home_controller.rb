@@ -13,8 +13,12 @@ class HomeController < ApplicationController
 
   def index
     redirect_to '/oauth/login' and return if @client.nil?
-    @fav_photos = get_api('/photos?feature=popular&rpp=50&page=1&image_size=3&only=People')['photos']
+#    @fav_photos =
+    #    get_api('/photos?feature=popular&rpp=50&page=1&image_size=3&only=People')['photos']
     @user = get_api('/users')['user']
+
+    @fav_photos= get_api("/photos?feature=user_favorites&user_id=#{@user['id']}&rpp=50&page=1&image_size=3")['photos']
+    
     session[:username] = @user['username']
   end
   def photo_selected
